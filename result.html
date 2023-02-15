@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html><head><meta charset="utf-8"/>
+  
+  <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+  <!-- Mobile Metas -->
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/>
+  <!-- Site Metas -->
+  <meta name="keywords" content=""/>
+  <meta name="description" content=""/>
+  <meta name="author" content=""/>
+
+  <title>FHITE SHARK</title>
+
+  <!-- slider stylesheet -->
+  <link rel="stylesheet" type="text/css" href="https://cdnjs.cloudflare.com/ajax/libs/OwlCarousel2/2.1.3/assets/owl.carousel.min.css"/>
+
+  <!-- bootstrap core css -->
+  <link rel="stylesheet" type="text/css" href="css/bootstrap.css"/>
+
+  <!-- fevicon -->
+  <link rel="icon" href="images/logo.ico" />
+  <link rel="shortcut icon" href="images/logo.ico" />
+
+  <!-- fonts style -->
+  <link href="https://fonts.googleapis.com/css?family=Dosis:400,500|Poppins:400,700&amp;display=swap" rel="stylesheet"/>
+  <!-- Custom styles for this template -->
+  <link href="css/style.css" rel="stylesheet"/>
+  <!-- responsive style -->
+  <link href="css/responsive.css" rel="stylesheet"/>
+
+  <style>
+    .tg {border-collapse:collapse;border-spacing:0; width: 100%;}
+    .tg td{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:14px;overflow:hidden;padding:20px 5px;word-break:normal;}
+    .tg th{border-color:black;border-style:solid;border-width:1px;font-family:Arial, sans-serif;font-size:18px;font-weight:bold;overflow:hidden;padding:20px 5px;word-break:normal;}
+    .tg .tg-0lax{text-align:center;}
+    #rank1, #rank2, #rank3 {color: rgb(226, 46, 46);}
+  </style>
+</head>
+
+<body class="sub_page">
+  <div class="hero_area">
+    <!-- header section strats -->
+    <header class="header_section">
+      <div class="container-fluid">
+        <div class="row">
+          <div class="col-lg-8">
+            <nav class="navbar navbar-expand-lg custom_nav-container ">
+              <a class="navbar-brand" href="intro.html">
+                FHITE SHARK
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+
+              <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <div class="d-flex  flex-column flex-lg-row align-items-center">
+                  <ul class="navbar-nav  ">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="intro.html">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="content.html#about">About </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="content.html#service">Service </a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="stats.html">Stats</a>
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </nav>
+          </div>
+        </div>
+      </div>
+    </header>
+    <!-- end header section -->
+  </div>
+
+  <!-- result section -->
+  <section class="problem_section layout_padding">
+    <div class="container">
+      <div class="custom_heading-container">
+        <h2 style="border-bottom: 1px solid red;">
+          분석 결과
+        </h2>
+      </div>
+      <h4 style="margin-top: 30px; margin-bottom: 0; line-height: 130%;">
+        <span id="input1"></span> <span id="input2"></span>에 거주하는<br>
+        <span id="input3"></span>세 <span id="input4"></span>인 당신에게<br>
+        <span style="color: darkblue; font-weight: bold;">보이스피싱이 발생할 확률</span>
+      </h4>
+      <span style="font-size: small;">(실제 발생률과 상이할 수 있음)</span>
+      <h1 style="margin-top: 30px; color: red; font-size: 80px; font-weight: bold;">
+        <span id="risk"></span>
+        <span style="font-size: 55px;">%</span>
+      </h1>
+      <div class="layout_padding2">
+        <table class="tg" style="width: 85%; margin: auto;">
+          <thead>
+            <tr>
+              <th class="tg-0lax" colspan="3">
+                <span id="userAge"></span> <span id="userGender"></span>가 많이 당하는 보이스피싱 유형 TOP 3
+              </th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr>
+              <td class="tg-0lax">1</td>
+              <td class="tg-0lax" colspan="2">
+                <span id="rank1" style="font-size: 22px; font-weight: bold;"></span>
+                <span style="font-size: 22px;">보이스피싱</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">2</td>
+              <td class="tg-0lax" colspan="2">
+                <span id="rank2" style="font-size: 22px; font-weight: bold;"></span>
+                <span style="font-size: 22px;">보이스피싱</span>
+              </td>
+            </tr>
+            <tr>
+              <td class="tg-0lax">3</td>
+              <td class="tg-0lax" colspan="2">
+                <span id="rank3" style="font-size: 22px; font-weight: bold;"></span>
+                <span style="font-size: 22px;">보이스피싱</span>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+    <div id="box1">
+      <div class='tableauPlaceholder' id='viz1676442753254' style='position: relative; margin: auto;'><noscript><a href='#'><img alt='2020년~2022년 지역별 보이스피싱 피해자 통계' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;WY&#47;WYZ7RY8DK&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;WYZ7RY8DK' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;WY&#47;WYZ7RY8DK&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='ko-KR' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1676442753254');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='1227px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='1227px';} else { vizElement.style.width='100%';vizElement.style.height='1177px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </div>
+    <div id="box2">
+      <div class='tableauPlaceholder' id='viz1676442833075' style='position: relative; margin: auto;'><noscript><a href='#'><img alt='2020년~2022년 지역별 보이스피싱 피해자 통계' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;6Y&#47;6Y2KGNTJ9&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;6Y2KGNTJ9' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;6Y&#47;6Y2KGNTJ9&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='ko-KR' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1676442833075');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='1227px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='1227px';} else { vizElement.style.width='100%';vizElement.style.height='1177px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </div>
+    <div id="box3">
+      <div class='tableauPlaceholder' id='viz1676442872405' style='position: relative; margin: auto;'><noscript><a href='#'><img alt='2020년~2022년 지역별 보이스피싱 피해자 통계' src='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;J9&#47;J9PZJ9TTK&#47;1_rss.png' style='border: none' /></a></noscript><object class='tableauViz'  style='display:none;'><param name='host_url' value='https%3A%2F%2Fpublic.tableau.com%2F' /> <param name='embed_code_version' value='3' /> <param name='path' value='shared&#47;J9PZJ9TTK' /> <param name='toolbar' value='yes' /><param name='static_image' value='https:&#47;&#47;public.tableau.com&#47;static&#47;images&#47;J9&#47;J9PZJ9TTK&#47;1.png' /> <param name='animate_transition' value='yes' /><param name='display_static_image' value='yes' /><param name='display_spinner' value='yes' /><param name='display_overlay' value='yes' /><param name='display_count' value='yes' /><param name='language' value='ko-KR' /><param name='filter' value='publish=yes' /></object></div>                <script type='text/javascript'>                    var divElement = document.getElementById('viz1676442872405');                    var vizElement = divElement.getElementsByTagName('object')[0];                    if ( divElement.offsetWidth > 800 ) { vizElement.style.width='1000px';vizElement.style.height='1227px';} else if ( divElement.offsetWidth > 500 ) { vizElement.style.width='1000px';vizElement.style.height='1227px';} else { vizElement.style.width='100%';vizElement.style.height='1177px';}                     var scriptElement = document.createElement('script');                    scriptElement.src = 'https://public.tableau.com/javascripts/api/viz_v1.js';                    vizElement.parentNode.insertBefore(scriptElement, vizElement);                </script>
+    </div>
+    <div class="detail-box">
+      <div>
+        <a href="content.html" style="margin-top: 30px;">메인화면으로</a>
+      </div>
+    </div>
+  </section>
+  <!-- end result section -->
+  </div>
+
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <script type="text/javascript" src="js/bootstrap.js"></script>
+
+  <script type='text/javascript'>
+    var phishingType = {
+      20: ['범죄 연루 빙자', '저금리 대출 빙자', '가족/지인 사칭'],
+      30: ['저금리 대출 빙자', '범죄 연루 빙자', '가족/지인 사칭'],
+      40: ['저금리 대출 빙자', '범죄 연루 빙자', '가족/지인 사칭'],
+      50: ['가족/지인 사칭', '저금리 대출 빙자', '범죄 연루 빙자'],
+    };
+
+    var phishingRisk = {
+      '충청남도': 0.20336521219366405,
+      '대전광역시': 0.19066838046272494,
+      '세종특별자치시': 0.23156249999999998,
+      '천안시 서북구': 0.16835873388042202,
+      '아산시': 0.13949602122015914,
+      '서산시': 0.18664495114006513,
+      '유성구': 0.18074766355140184,
+      '논산시': 0.20928143712574848,
+      '동구': 0.18921787709497206,
+      '서구': 0.17692307692307693,
+      '천안시 동남구': 0.2526760563380282,
+      '전동면': 0.073125,
+      '홍성군': 0.2811627906976744,
+      '서천군': 0.13714285714285712,
+      '대덕구': 0.22235294117647056,
+      '금산군': 0.15765957446808512,
+      '중구': 0.22253164556962024,
+      '조치원읍': 0.19745454545454544,
+      '도담동': 0.21648648648648647,
+      '공주시': 0.3548484848484848,
+      '다정동': 0.1725,
+      '연동면': 0.1309090909090909,
+      '계룡시': 0.11025641025641025,
+      '전의면': 0.82,
+      '당진시': 0.18243975903614457,
+      '예산군': 0.21932038834951456,
+      '태안군': 0.35874999999999996,
+      '부여군': 0.26052631578947366,
+      '대평동': 0.22285714285714286,
+      '새롬동': 0.19874999999999998,
+      '반곡동': 0.327,
+      '고운동': 0.15692307692307692,
+      '부강면': 0.32999999999999996,
+      '연서면': 0.17076923076923076,
+      '아름동': 0.11377358490566036,
+      '보람동': 0.21870967741935482,
+      '소담동': 0.1275,
+      '청양군': 0.21428571428571427,
+      '보령시': 0.22739495798319326,
+      '금남면': 0.14555555555555555,
+      '나성동': 0.1286842105263158,
+      '한솔동': 0.11666666666666667,
+      '종촌동': 0.1673076923076923,
+      '장군면': 0.11428571428571428,
+      '소정면': 0.0975,
+      '연기면': 0.17,
+      '가람동': 0.12,
+      '해밀동': 0.036,
+      '어진동': 0.049999999999999996,
+      '집현동': 0.3,
+      '2010년대': 0.23545454545454544,
+      '2000년대': 0.31102473498233213,
+      '1990년대': 0.3290060240963855,
+      '1980년대': 0.37755102040816324,
+      '1970년대': 0.25636363636363635,
+      '1960년대': 0.184,
+      '1950년대': 0.07736842105263157,
+      '1950년 이전': 0.174,
+      '남자': 0.3107444668008048,
+      '여자': 0.14246597537265068,
+    }
+
+    let userInfo = location.href.split('?')[1];
+    userInfo = decodeURI(userInfo);
+
+    let a = userInfo.split('&')[0].split('=')[1];
+    let b = userInfo.split('&')[1].split('=')[1].replace('+', ' ');
+    let c = userInfo.split('&')[2].split('=')[1];
+    let d = userInfo.split('&')[3].split('=')[1];
+    let age = new Date().getFullYear() - c;
+    let year = c - c % 10;
+
+    document.getElementById('input1').innerHTML = a;
+    document.getElementById('input2').innerHTML = b;
+    document.getElementById('input3').innerHTML = age;
+    document.getElementById('input4').innerHTML = d;
+
+    let yearVal;
+    if (year > 2010) {yearVal = '2010년대';}
+    else if (year < 1950) {yearVal = '1950년 이전';}
+    else {yearVal = year + '년대';}
+
+    var riskScore = (phishingRisk[a] + phishingRisk[b] + phishingRisk[yearVal] + phishingRisk[d]) * 25;
+    // console.log(+(Math.round(riskScore + "e+1") + "e-1"));
+    document.getElementById('risk').innerHTML = +(Math.round(riskScore + "e+1") + "e-1");
+
+    let ageVal = age - age % 10;
+    if (ageVal < 20) {
+      document.getElementById('userAge').innerHTML = '20대 이하';
+      ageVal = 20;
+    } else if (ageVal > 50) {
+      document.getElementById('userAge').innerHTML = '50대 이상';
+      ageVal = 50;
+    } else {
+      document.getElementById('userAge').innerHTML = ageVal + '대';
+    }
+    document.getElementById('userGender').innerHTML = d;
+    document.getElementById('rank1').innerHTML = phishingType[ageVal][0];
+    document.getElementById('rank2').innerHTML = phishingType[ageVal][1];
+    document.getElementById('rank3').innerHTML = phishingType[ageVal][2];
+
+    if (a == '대전광역시') {
+      document.getElementById('box2').style.display = 'none';
+      document.getElementById('box3').style.display = 'none';
+    } else if (a == '세종특별자치시') {
+      document.getElementById('box1').style.display = 'none';
+      document.getElementById('box3').style.display = 'none';
+    } else {
+      document.getElementById('box1').style.display = 'none';
+      document.getElementById('box2').style.display = 'none';
+    }
+  </script>
+
+</body></html>
